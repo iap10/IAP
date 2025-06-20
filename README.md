@@ -17,7 +17,17 @@ COVID-19 이후 비대면 교육과 자율 학습 환경이 일상화되면서, 
 </div>
 
 ### Case 1
+<div style="display: inline-block;">
+  <img src="https://github.com/user-attachments/assets/0d00849b-b777-443c-b0d8-2ce4b94b181c" width="100%">
+</div>
+<div style="display: inline-block;">
+  <img src="https://github.com/user-attachments/assets/305c1e5e-e4f0-4d79-ba26-af4076867f3d" width="70%">
+</div>
 
 ### Case 2
+
+<p align="center">
+<img width="100%" src="https://github.com/user-attachments/assets/ef4df795-e761-4ac7-a1a7-94b5a3b5cc33">
+</p>
 
 ### Case 3
