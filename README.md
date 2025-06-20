@@ -10,7 +10,7 @@ COVID-19 이후 비대면 교육과 자율 학습 환경이 일상화되면서, 
 ## Proposed Architecture
 ### Final Architecture (Case 4)
 <div style="display: inline-block;">
-  <img src="https://github.com/user-attachments/assets/c9fd7b2b-6e8b-443d-8ab3-8ddaf10d6f38" width="70%">
+  <img src="https://github.com/user-attachments/assets/c9fd7b2b-6e8b-443d-8ab3-8ddaf10d6f38" width="50%">
 </div>
 <div style="display: inline-block;">
   <img src="https://github.com/user-attachments/assets/db887f83-e872-417c-999a-83d62085a86e" width="50%">
