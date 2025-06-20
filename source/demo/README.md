@@ -12,6 +12,8 @@ demo python code의 경우, case code와 달리 빠른 동작을 위해 FPS 측�
 | ENGINE_FILE_PATH      | yolov7_416100.engine     |
 | HEADPOSE_ENGINE_PATH  | mobilenetv3_small.onnx   |
 
+-------------------
+
 위의 code를 실행하기 위해서는 onnxruntime을 설치하여야합니다.
 
 #### Jetson Nano 시스템 버전
