@@ -1,5 +1,7 @@
 현재 directory 내부의 파일들은 보고서에 작성된 case들에 대한 python code들을 담고 있습니다.
 
+code를 다운받으신 후, case1/case2/case3/case4 python code 내부에서 engine 및 library 주소를 다음과 같이 설정해주시면 됩니다.
+
 #### CASE1 / CASE2 / CASE3의 ENGINE 및 LIBRARY 환경
 
 | 항목                  | 값                       |
