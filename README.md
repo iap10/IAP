@@ -7,6 +7,9 @@ COVID-19 이후 비대면 교육과 자율 학습 환경이 일상화되면서, 
   
 본 프로젝트는 이러한 문제를 해결하고자, 실시간 집중도 판단이 가능한 지능형 학습 감시 시스템을 제안한다. 본 시스템은 웹캠 영상만으로 얼굴과 손 및 물체를 탐지하고, 얼굴 자세와 손에 쥔 물체의 정보를 종합 분석하여 학습자의 집중 여부를 판단한다. 플랫폼으로서 NVIDIA Jetson Nano 보드를 사용하며 엣지 환경에서 동작 가능하도록 모델을 경량화하고 실시간성 확보를 위한 최적화 기법을 적용하였다. 
 
+## YOLO v7-tiny fine-tuned Result
+
+
 ## Proposed Architecture
 ### Final Architecture (Case 4)
 Case 4) Multi-Thread with 2 Thread(1 GPU 1 CPU)
