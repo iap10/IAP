@@ -18,6 +18,8 @@ We finetuned YOLO v7-tiny with custom Roboflow Dataset
 <img width="100%" src="https://github.com/user-attachments/assets/369fad50-bddd-4dd2-bf98-5babc875c1e0">
 </p>
 
+---
+
 ## Proposed Architecture
 ### Final Architecture (Case 4)
 Case 4) Multi-Thread with 2 Thread(1 GPU 1 CPU)
