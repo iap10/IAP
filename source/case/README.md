@@ -2,6 +2,8 @@
 
 code를 다운받으신 후, case1/case2/case3/case4 python code 내부에서 engine 및 library 주소를 다음과 같이 설정해주시면 됩니다.
 
+
+
 #### CASE1 / CASE2 / CASE3의 ENGINE 및 LIBRARY 환경
 
 | 항목                  | 값                       |
@@ -18,6 +20,12 @@ code를 다운받으신 후, case1/case2/case3/case4 python code 내부에서 en
 | PLUGIN_LIBRARY        | 416100.so                |
 | ENGINE_FILE_PATH      | yolov7_416100.engine     |
 | HEADPOSE_ENGINE_PATH  | mobilenetv3_small.onnx   |
+
+그런 다음 아래의 code를 입력하시면 동작이 될 것입니다.
+
+```
+python3 case@.py
+```
 
 case4의 code를 실행하기 위해서는 onnxruntime을 설치하여야합니다.
 Jetson Nano 
