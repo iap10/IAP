@@ -2,12 +2,12 @@
 
 CASE1/CASE2/CASE3의 ENGINE 및 LIBRARY 환경
 |-----------------------|--------------------------|
-| PLUGIN_LIBRARY					| 416100.so |
-| ENGINE_FILE_PATH				|	yolov7_416100.engine |
-| HEADPOSE_ENGINE_PATH		|	mobilenet_fp16.trt | 
+| PLUGIN_LIBRARY				| 416100.so |
+| ENGINE_FILE_PATH			|	yolov7_416100.engine |
+| HEADPOSE_ENGINE_PATH	|	mobilenet_fp16.trt | 
 
 CASE4의 ENGINE 및 LIBRARY 환경
 |-----------------------|--------------------------|
-| PLUGIN_LIBRARY					| 416100.so | 
-| ENGINE_FILE_PATH				|	yolov7_416100.engine |
-| HEADPOSE_ENGINE_PATH		|	mobilenetv3_small.onnx |
+| PLUGIN_LIBRARY				| 416100.so | 
+| ENGINE_FILE_PATH			|	yolov7_416100.engine |
+| HEADPOSE_ENGINE_PATH	|	mobilenetv3_small.onnx |
