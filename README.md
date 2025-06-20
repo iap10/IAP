@@ -1,4 +1,5 @@
-*최종 구현 code는 source/demo/final.py입니다.
+*최종 구현 code는 source/demo/final.py입니다.  
+
 *source/demo directory 내부의 모든 파일을 설치하셔야지 동작 가능합니다.
 
 # IAP: 얼굴 및 손-물체 인식을 활용한 지능형 학습 감시 시스템
