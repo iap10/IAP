@@ -9,7 +9,8 @@ COVID-19 이후 비대면 교육과 자율 학습 환경이 일상화되면서, 
 
 ## Proposed Architecture
 ### Final Architecture (Case 4)
-
+<p align="center">
+<img width="70%" src="">
 ### Case 1
 
 ### Case 2
