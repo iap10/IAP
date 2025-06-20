@@ -2,6 +2,12 @@
 
 code를 다운받으신 후, final python code 내부에서 engine 및 library 주소를 다음과 같이 설정해주시면 됩니다.
 
+그런 다음 아래의 code를 입력하시면 동작이 될 것입니다.
+
+```
+python3 final.py
+```
+
 final python code의 경우, case code와 달리 빠른 동작을 위해 FPS 측정 부분이 빠져있습니다.
 
 #### final의 ENGINE 및 LIBRARY 환경
