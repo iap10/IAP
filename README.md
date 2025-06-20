@@ -40,3 +40,13 @@ Case 3) Multi-Thread with 2 Thread(2 GPU)
 <div style="display: inline-block;">
   <img src="https://github.com/user-attachments/assets/d7d9759d-d9c4-4b38-be7a-b1cdd597b042" width="70%">
 </div>
+
+### [Experiment Result]
+
+|        | Avg FPS | Max FPS | Mem  | Swp   | Structure                       | Frame per YOLO |
+|--------|---------|---------|------|-------|----------------------------------|----------------|
+| Case1  | 2.22    | 3.55    | 3.6G | 1.9G  | 4 Thread with 2 GPU use         | 2              |
+| Case2  | 4.74    | 7.10    | 3.7G | 1.1G  | 1 Thread with 2 GPU use         | 2              |
+| Case3  | 3.45    | 7.15    | 3.7G | 1.1G  | 2 Thread with 2 GPU use         | 1              |
+| Case4  | 6.93    | 7.45    | 3.4G | 658M  | 2 Thread with 1 GPU 1 CPU use   | 1              |
+
