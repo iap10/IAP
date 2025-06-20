@@ -10,7 +10,7 @@ COVID-19 이후 비대면 교육과 자율 학습 환경이 일상화되면서, 
 ## YOLO v7-tiny fine-tuned Result
 We finetuned YOLO v7-tiny with custom Roboflow Dataset
 <p align="center">
-<img width="100%" src="https://github.com/user-attachments/assets/369fad50-bddd-4dd2-bf98-5babc875c1e0">
+<img width="100%" src="https://github.com/user-attachments/assets/0c54ddcb-0165-4d09-af20-386b14149da6">
 </p>
 <p align="center">
 <img width="100%" src="https://github.com/user-attachments/assets/369fad50-bddd-4dd2-bf98-5babc875c1e0">
