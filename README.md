@@ -30,6 +30,8 @@ Case 4) Multi-Thread with 2 Thread(1 GPU 1 CPU)
   <img src="https://github.com/user-attachments/assets/db887f83-e872-417c-999a-83d62085a86e" width="70%">
 </div>
 
+Case4의 경우, Multi-Thread에서 YOLO Thread에는 GPU, Headpose Thread에는 CPU를 사용하였으며, 매 frame model을 구동하였다. 
+
 ### Case 1
 Case 1) Baseline: Multi-Threading with 4 Thread
 <div style="display: inline-block;">
@@ -39,11 +41,16 @@ Case 1) Baseline: Multi-Threading with 4 Thread
   <img src="https://github.com/user-attachments/assets/305c1e5e-e4f0-4d79-ba26-af4076867f3d" width="70%">
 </div>
 
+Case1의 경우, 전체 시스템의 과정을 크게 Capture Thread, YOLO Thread, Headpose Thread, Display Thread와 같은 4가지 thread로 구성하였다.   
+YOLO model과 MobileNetv3-small model 모두 GPU에서 동작하며, 시스템의 부하를 막기 위해 2 frame마다 한 번씩 모델을 동작시켰다.
+
 ### Case 2
 Case 2) Single Thread with sequential GPU access
 <p align="center">
 <img width="100%" src="https://github.com/user-attachments/assets/ef4df795-e761-4ac7-a1a7-94b5a3b5cc33">
 </p>
+
+Case2의 경우, 전체를 하나의 thread 내부에 포함시키고, 짝수번째 frame에는 YOLO model을, 홀수번째 frame에는 MobileNetv3-small model을 GPU에서 동작함으로써 GPU의 부하를 막기 위해 시스템을 형성하였다. 
 
 ### Case 3
 Case 3) Multi-Thread with 2 Thread(2 GPU)
@@ -53,6 +60,8 @@ Case 3) Multi-Thread with 2 Thread(2 GPU)
 <div style="display: inline-block;">
   <img src="https://github.com/user-attachments/assets/d7d9759d-d9c4-4b38-be7a-b1cdd597b042" width="70%">
 </div>
+
+Case3의 경우, Multi-Thread에서 YOLO Thread와 Headpose Thread 각각에 GPU를 사용하였으며, 매 frame model을 구동하였다. 
 
 ### [Experiment Result]
 
