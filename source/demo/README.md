@@ -1,10 +1,10 @@
 현재 directory 내부의 파일들은 demo에 사용된 case에 대한 python code들을 담고 있습니다.
 
-code를 다운받으신 후, demo python code 내부에서 engine 및 library 주소를 다음과 같이 설정해주시면 됩니다.
+code를 다운받으신 후, final python code 내부에서 engine 및 library 주소를 다음과 같이 설정해주시면 됩니다.
 
-demo python code의 경우, case code와 달리 빠른 동작을 위해 FPS 측정 부분이 빠져있습니다.
+final python code의 경우, case code와 달리 빠른 동작을 위해 FPS 측정 부분이 빠져있습니다.
 
-#### DEMO의 ENGINE 및 LIBRARY 환경
+#### final의 ENGINE 및 LIBRARY 환경
 
 | 항목                  | 값                       |
 |-----------------------|--------------------------|
