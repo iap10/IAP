@@ -9,6 +9,7 @@ COVID-19 이후 비대면 교육과 자율 학습 환경이 일상화되면서, 
 
 ## Proposed Architecture
 ### Final Architecture (Case 4)
+Case 4) Multi-Thread with 2 Thread(1 GPU 1 CPU)
 <div style="display: inline-block;">
   <img src="https://github.com/user-attachments/assets/c9fd7b2b-6e8b-443d-8ab3-8ddaf10d6f38" width="100%">
 </div>
@@ -17,6 +18,7 @@ COVID-19 이후 비대면 교육과 자율 학습 환경이 일상화되면서, 
 </div>
 
 ### Case 1
+Case 1) Baseline: Multi-Threading with 4 Thread
 <div style="display: inline-block;">
   <img src="https://github.com/user-attachments/assets/0d00849b-b777-443c-b0d8-2ce4b94b181c" width="100%">
 </div>
@@ -25,9 +27,16 @@ COVID-19 이후 비대면 교육과 자율 학습 환경이 일상화되면서, 
 </div>
 
 ### Case 2
-
+Case 2) Single Thread with sequential GPU access
 <p align="center">
 <img width="100%" src="https://github.com/user-attachments/assets/ef4df795-e761-4ac7-a1a7-94b5a3b5cc33">
 </p>
 
 ### Case 3
+Case 3) Multi-Thread with 2 Thread(2 GPU)
+<div style="display: inline-block;">
+  <img src="https://github.com/user-attachments/assets/25cf8588-7226-43fa-8071-f55d81bde553" width="100%">
+</div>
+<div style="display: inline-block;">
+  <img src="https://github.com/user-attachments/assets/d7d9759d-d9c4-4b38-be7a-b1cdd597b042" width="70%">
+</div>
